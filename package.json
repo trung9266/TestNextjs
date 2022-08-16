@@ -1,20 +1,30 @@
 {
-  "name": "nextjs",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "postinstall": "prisma generate",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@coreui/icons": "^2.1.0",
+    "aws-amplify": "^4.3.31",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "next": "12.2.4",
+    "next-images": "^1.8.4",
+    "postinstall": "^0.7.4",
+    "prisma": "^4.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.3.2"
   },
   "devDependencies": {
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4"
   }
 }

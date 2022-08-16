@@ -4,4 +4,8 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
+// module.exports = {
+//   // Prefer loading of ES Modules over CommonJS
+//   experimental: { esmExternals: true },
+// };
